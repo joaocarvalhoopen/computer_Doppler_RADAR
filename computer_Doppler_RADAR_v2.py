@@ -41,7 +41,7 @@ Description: This program is a Doppler RADAR for a PC. In reality it’s a sonar
              Going back to the program, then in the callback we put the result is a global variable doppler_shift
              and we copy the previous generated sin tone of 18KHz into the output buffer of the callback.
 
-             In an external thread we periodically (0.5 seconds), see be the value of this variable and print it
+             In an external thread we periodically (0.5 seconds), see the value of this variable and print it
              to the screen as a text graph, at the end we plot the last FFT graph so we can see the signal.
 
 

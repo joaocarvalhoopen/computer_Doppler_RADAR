@@ -22,7 +22,7 @@ This program makes two things at the same time, first it generates a sine wave o
 
 Going back to the program, then in the callback we put the result is a global variable doppler_shift and we copy the previous generated sin tone of 18KHz into the output buffer of the callback.
 
-In an external thread we periodically (0.5 seconds), see be the value of this variable and print it to the screen as a text graph, at the end we plot the last FFT graph so we can see the signal.
+In an external thread we periodically (0.5 seconds), see the value of this variable and print it to the screen as a text graph, at the end we plot the last FFT graph so we can see the signal.
 
 
 MIT license.
